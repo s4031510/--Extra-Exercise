@@ -5,43 +5,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tank Store - Homepage</title>
-    <link rel="icon" href="assets/webicon.webp">
+    <link rel="icon" href="../assets/webicon.webp">
 </head>
 
 <body>
-    <section class="header">
-        <h1>Welcome to The Tank Store</h1>
-        <em>Legality not guaranteed!</em>
-        <nav>
-            <a href="index.html" target="_self">Homepage</a>
-            <a href="products.html">Products</a>
-        </nav>
-    </section>
+    <center>
+        <section class="header">
+            <h1>Welcome to The Tank Store</h1>
+            <em>Legality not guaranteed!</em>
+            <nav>
+                <a href="index.html" target="_self">
+                    <h2>Homepage</h2>
+                </a>
+                <a href="products.html">
+                    <h2>Products</h2>
+                </a>
+            </nav>
+        </section>
 
-    <section>
-        <center>
+        <section class="featured">
             <h2>Featured Product of this month</h2>
-            <article>
-                <table border="3" cellpadding="30">
-                    <tr>
-                        <th>Image</th>
-                        <th>Name</th>
-                        <th>Armour (front/ side/ rear)</th>
-                        <th>Armaments</th>
-                        <th>Stock</th>
-                        <th>Price</th>
-                    </tr>
-                    <tr>
-                        <th><img src="assets/M4_Sherman.jpg" alt="M4" width="300px"></th>
-                        <td>Sherman M4A1</td>
-                        <td>50.8mm / 38.1mm / 38.1mm</td>
-                        <td>75mm Gun M3</td>
-                        <td>Out of Stock</td>
-                        <td>TBA</td>
-                    </tr>
-            </article>
-        </center>
-    </section>
+            <table border="2" cellpadding="30">
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Armour (front/ side/ rear)</th>
+                    <th>Armaments</th>
+                    <th>Stock</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th><img src="../assets/M4_Sherman.jpg" alt="M4" width="300px"></th>
+                    <td>Sherman M4A1</td>
+                    <td>50.8mm - 88.9mm / 38.1mm - 50.8mm / 25.4mm - 50.8mm</td>
+                    <td>75mm Gun M3</td>
+                    <td>10</td>
+                    <td>$275,000</td>
+                    <td><a href="checkout.html" target="_blank"><input type="button" value="Buy Now"></a></td>
+                </tr>
+            </table>
+            <h2>Why should you choose this tank?</h2>
+            <table>
+                <tr>
+                    <td rowspan="2">
+                        <font size="4">
+                            The M4A1, officially Medium Tank, M4, is the most widely usd medium tank by the US and its
+                            Western Allies in WWII. <br>
+                            The tank is made to be reliable, cheap to produce in large numbers, and was the backbone
+                            of many Allied advances. <br>
+                            With its powerful 75mm gun, it was more than capable of taking on all the German Panzers
+                            before <br>
+                            the introduction of the Tiger and Panther tanks, meanwhile able to protect its crew from the
+                            enemy fire.
+                        </font>
+                    </td>
+                    <td>
+                        <img src="../assets/m4_d_day.webp" width="600px">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>
+                            A modified variant of the Sherman, the Sherman Firefly armed <br>
+                            with the QF-17 pounder gun by the British landing on Omaha Beach
+                        </center>
+                    </td>
+                </tr>
+            </table>
+        </section>
+    </center>
 </body>
 
 </html>

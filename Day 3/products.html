@@ -5,18 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tank Store - Products</title>
-    <link rel="icon" href="assets/webicon.webp">
+    <link rel="icon" href="../assets/webicon.webp">
 </head>
 
 <body>
-    <section class="header">
-        <header>Welcome to The Tank Store</header>
-        <em>Legality not guaranteed!</em>
-        <nav>
-            <a href="index.html" target="_self">Homepage</a>
-            <a href="products.html">Products</a>
-        </nav>
-    </section>
+    <center>
+        <section class="header">
+            <h1>The Tank Store</h1>
+            <em>Legality not guaranteed!</em>
+            <nav>
+                <a href="index.html" target="_self">
+                    <h2>Homepage</h2>
+                </a>
+                <a href="products.html">
+                    <h2>Products</h2>
+                </a>
+            </nav>
+        </section>
+
+        <section class="listing">
+            <h2>Tank Listing</h2>
+            <table border="2" cellpadding="30">
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Armour (front/ side/ rear)</th>
+                    <th>Armaments</th>
+                    <th>Stock</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th><img src="../assets/M4_Sherman.jpg" alt="M4" width="300px"></th>
+                    <td>Sherman M4A1</td>
+                    <td>50.8mm - 88.9mm / 38.1mm - 50.8mm / 25.4mm - 50.8mm</td>
+                    <td>75mm Gun M3</td>
+                    <td>10</td>
+                    <td>$275,000</td>
+                    <td><a href="checkout.html" target="_blank"><input type="button" value="Buy Now"></a></td>
+                </tr>
+
+                <tr>
+                    <th><img src="../assets/Tiger_131.jpg" alt="Panzer VI" width="300px"></th>
+                    <td>Tiger I</td>
+                    <td>62mm - 102mm / 62mm - 82mm / 82mm</td>
+                    <td>88mm KwK36</td>
+                    <td>Discontinued</td>
+                    <td>Discontinued</td>
+                    <td><input type="button" value="Unavailable" disabled></td>
+                </tr>
+
+                <tr>
+                    <th><img src="../assets/A39 - Tortoise.png" alt="A39" width="300px"></th>
+                    <td>A39 Tortoise</td>
+                    <td>55mm - 215mm / 110mm - 152mm / 100mm - 110m</td>
+                    <td>94mm 32pdr OQF</td>
+                    <td>Out of Stock</td>
+                    <td>TBA</td>
+                    <td><input type="button" value="Unavailable" disabled></td>
+            </table>
+        </section>
+    </center>
 </body>
+
 
 </html>
